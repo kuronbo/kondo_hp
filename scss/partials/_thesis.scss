@@ -1,0 +1,23 @@
+.p-thesis {
+	font-size: 1.6rem;
+	padding: .6em;
+	&__title {
+		font-size: 1.05em;
+		margin-bottom: 1.5em;
+		padding: .3em 0;
+		border-bottom: 1px solid #444;
+	}
+	&__list {
+		&__item {
+			margin-bottom: 1.5em;
+			line-height: 1.5em;
+			a {
+				color: blue;
+				text-decoration: underline;
+			}
+			a:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

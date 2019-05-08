@@ -1,0 +1,36 @@
+.p-profile {
+	font-size: 1.6rem;
+	.p-definitionList {
+		div {
+			margin-bottom: .8em;
+			@include mediaquery(md) {
+				display: flex;
+				margin-bottom: 2px;
+			}
+		}
+		&__dt {
+			padding: .5em .8em;
+			background: #444;
+			color: white;
+			@include mediaquery(md) {
+				display: flex;
+				align-items: center;
+				flex: 0 0  150px;
+			}
+		}
+		&__dd {
+			padding: .5em;
+			line-height: 1.3em;
+			.p-forWork{
+				padding: .5em .8em;
+				a {
+					color: blue;
+					text-decoration: underline;
+				}
+				a:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

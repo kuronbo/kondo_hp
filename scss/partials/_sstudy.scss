@@ -1,0 +1,36 @@
+.p-sstudy {
+	font-size: 1.6rem;
+	padding: .5em;
+
+	&__title {
+		font-size: 1.1em;
+		padding: .2em 0;
+		border-bottom: 1px solid #444;
+		margin-bottom: .5em;
+	}
+}
+
+.p-activity {
+	font-size: .95em;
+	margin-bottom: 50px;
+	&__title {
+		padding: .6em .4em;
+		margin-bottom: .7em;
+		border-left: 7px solid #444;
+	}
+
+	ul {
+		li {
+			margin-bottom: 1em;
+			line-height: 1.3em;
+		}
+	}
+
+	a {
+		color: blue;
+		text-decoration: underline;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+}

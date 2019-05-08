@@ -1,0 +1,55 @@
+.p-yearStudyLinks {
+	font-size: 1.6rem;
+	padding: .5em;
+	margin-bottom: 30px;
+
+	&__title {
+		font-size: 1.1em;
+		padding: .2em 0;
+		border-bottom: 1px solid #444;
+		margin-bottom: .5em;
+	}
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		&__item {
+			margin-bottom: .5em;
+			padding: 0 .8em;
+			border-right: 1px solid #444;
+
+			a {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+.p-nowStudyThemes {
+	font-size: 1.6rem;
+	padding: .5em;
+
+	&__title {
+		font-size: 1.1em;
+		padding: .2em 0;
+		border-bottom: 1px solid #444;
+		margin-bottom: .5em;
+	}
+}
+
+.p-areaChunk {
+	font-size: .95em;
+	margin-bottom: 50px;
+	&__name {
+		padding: .6em .4em;
+		margin-bottom: .7em;
+		border-left: 7px solid #444;
+	}
+	&__studyTitles {
+		padding: 0 .5em;
+		li {
+			margin-bottom: .4em;
+			line-height: 1.3em;
+		}
+	}
+}

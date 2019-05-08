@@ -1,0 +1,43 @@
+.p-members {
+	font-size: 1.6rem;
+	padding: 1em 0;
+
+	&__title {
+		font-size: 1.1em;
+		padding: .2em 0;
+		border-bottom: 1px solid #444;
+		margin-bottom: .8em;
+	}
+	&__repletion {
+		margin-bottom: 2em;
+	}
+}
+
+.p-memberForClass {
+	&__classname {
+		padding: .5em;
+		margin-bottom: .8em;
+		border-left: 8px solid #444;
+	}
+	.p-memberList {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 40px;
+
+		&__item {
+			flex: 0 1 120px;
+			margin: 0 15px 20px;
+			a {
+				display: block;
+			}
+			&__img {
+				width: 100%;
+				margin-bottom: .6em;
+			}
+			&__text {
+				text-align: center;
+				line-height: 1.4em;
+			}
+		}
+	}
+}

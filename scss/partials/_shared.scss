@@ -1,0 +1,64 @@
+.p-HPheader {
+	background: #444;
+	color: white;
+	&__brand {
+		@include mediaquery() {
+			font-size: 2.6rem;
+		}
+		@include mediaquery(md) {
+			font-size: 3rem;
+		}
+		@include mediaquery(lg) {
+			font-size: 3.4rem;
+		}
+	}
+}
+
+.p-HPheaderNav {
+	font-size: 1.4rem;
+	background: #444;
+	color: white;
+	border-top: 1px solid white;
+}
+
+
+.p-content {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 5px;
+	&__item {
+		margin-bottom: 50px;
+	}
+}
+
+
+.p-news {
+	font-size: 1em;
+	padding: .5em;
+	margin-bottom: 1.5em;
+
+	&__meta {
+		margin-bottom: 1em;
+	}
+}
+
+.p-HPfooter {
+	font-size: 1.5rem;
+	padding: 1.5em 1em .5em;
+	background: #444;
+	color: white;
+	.m-flexibleNav {
+		max-width: 960px;
+		margin: 0 auto 2.5em;
+		&__item {
+			margin-bottom: 1em;
+			a {
+				text-decoration: underline;
+			}
+		}
+	}
+	&__copyright {
+		font-size: .8em;
+		text-align: center;
+	}
+}

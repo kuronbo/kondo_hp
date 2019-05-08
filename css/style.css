@@ -1,0 +1,365 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background: #ffffef; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.m-brandText {
+  font-size: 2.2rem;
+  padding: .5em 0;
+  text-align: center; }
+  .m-brandText__subTitle {
+    font-size: .4em; }
+
+.m-inlineNav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  @media screen and (min-width: 400px) {
+    .m-inlineNav {
+      font-size: 1.6rem; } }
+  @media screen and (min-width: 768px) {
+    .m-inlineNav {
+      font-size: 1.8rem; } }
+  @media screen and (min-width: 1024px) {
+    .m-inlineNav {
+      font-size: 2rem; } }
+
+.m-navLink--block {
+  display: block;
+  padding: .5em .8em; }
+
+.p-HPheader {
+  background: #444;
+  color: white; }
+  @media screen and (min-width: 400px) {
+    .p-HPheader__brand {
+      font-size: 2.6rem; } }
+  @media screen and (min-width: 768px) {
+    .p-HPheader__brand {
+      font-size: 3rem; } }
+  @media screen and (min-width: 1024px) {
+    .p-HPheader__brand {
+      font-size: 3.4rem; } }
+
+.p-HPheaderNav {
+  font-size: 1.4rem;
+  background: #444;
+  color: white;
+  border-top: 1px solid white; }
+
+.p-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 5px; }
+  .p-content__item {
+    margin-bottom: 50px; }
+
+.p-news {
+  font-size: 1em;
+  padding: .5em;
+  margin-bottom: 1.5em; }
+  .p-news__meta {
+    margin-bottom: 1em; }
+
+.p-HPfooter {
+  font-size: 1.5rem;
+  padding: 1.5em 1em .5em;
+  background: #444;
+  color: white; }
+  .p-HPfooter .m-flexibleNav {
+    max-width: 960px;
+    margin: 0 auto 2.5em; }
+    .p-HPfooter .m-flexibleNav__item {
+      margin-bottom: 1em; }
+      .p-HPfooter .m-flexibleNav__item a {
+        text-decoration: underline; }
+  .p-HPfooter__copyright {
+    font-size: .8em;
+    text-align: center; }
+
+.p-aboutLab__title {
+  font-size: 1.8em;
+  padding: .5em; }
+
+.p-aboutLab__img {
+  width: 100%;
+  margin-bottom: .8em; }
+
+.p-aboutLab__description {
+  font-size: 1.6em;
+  line-height: 1.6em; }
+
+.p-newNews {
+  font-size: 1.6rem; }
+  .p-newNews__title {
+    padding: .5em .2em;
+    border-bottom: 1px solid #444; }
+  .p-newNews__newsList {
+    padding: 1em 0; }
+  .p-newNews__detailLink {
+    padding: 0 .5em;
+    text-align: right; }
+    .p-newNews__detailLink a {
+      color: blue;
+      text-decoration: underline; }
+
+.p-yearStudyLinks {
+  font-size: 1.6rem;
+  padding: .5em;
+  margin-bottom: 30px; }
+  .p-yearStudyLinks__title {
+    font-size: 1.1em;
+    padding: .2em 0;
+    border-bottom: 1px solid #444;
+    margin-bottom: .5em; }
+  .p-yearStudyLinks__list {
+    display: flex;
+    flex-wrap: wrap; }
+    .p-yearStudyLinks__list__item {
+      margin-bottom: .5em;
+      padding: 0 .8em;
+      border-right: 1px solid #444; }
+      .p-yearStudyLinks__list__item a {
+        text-decoration: underline; }
+
+.p-nowStudyThemes {
+  font-size: 1.6rem;
+  padding: .5em; }
+  .p-nowStudyThemes__title {
+    font-size: 1.1em;
+    padding: .2em 0;
+    border-bottom: 1px solid #444;
+    margin-bottom: .5em; }
+
+.p-areaChunk {
+  font-size: .95em;
+  margin-bottom: 50px; }
+  .p-areaChunk__name {
+    padding: .6em .4em;
+    margin-bottom: .7em;
+    border-left: 7px solid #444; }
+  .p-areaChunk__studyTitles {
+    padding: 0 .5em; }
+    .p-areaChunk__studyTitles li {
+      margin-bottom: .4em;
+      line-height: 1.3em; }
+
+.p-thesis {
+  font-size: 1.6rem;
+  padding: .6em; }
+  .p-thesis__title {
+    font-size: 1.05em;
+    margin-bottom: 1.5em;
+    padding: .3em 0;
+    border-bottom: 1px solid #444; }
+  .p-thesis__list__item {
+    margin-bottom: 1.5em;
+    line-height: 1.5em; }
+    .p-thesis__list__item a {
+      color: blue;
+      text-decoration: underline; }
+    .p-thesis__list__item a:hover {
+      text-decoration: none; }
+
+.p-newses {
+  font-size: 1.6rem;
+  padding: .5em 0;
+  margin-bottom: 30px; }
+  .p-newses__title {
+    padding: .5em .2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #444; }
+  .p-newses__newsList .p-news {
+    border-bottom: 1px dashed #444; }
+    .p-newses__newsList .p-news__meta {
+      margin-bottom: 0;
+      text-align: right; }
+    .p-newses__newsList .p-news__content {
+      margin-bottom: .7em;
+      line-height: 1.2em; }
+  .p-newses .p-linkToOld a {
+    color: blue;
+    text-decoration: underline; }
+  .p-newses .p-linkToOld a:hover {
+    text-decoration: none; }
+
+.p-members {
+  font-size: 1.6rem;
+  padding: 1em 0; }
+  .p-members__title {
+    font-size: 1.1em;
+    padding: .2em 0;
+    border-bottom: 1px solid #444;
+    margin-bottom: .8em; }
+  .p-members__repletion {
+    margin-bottom: 2em; }
+
+.p-memberForClass__classname {
+  padding: .5em;
+  margin-bottom: .8em;
+  border-left: 8px solid #444; }
+
+.p-memberForClass .p-memberList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px; }
+  .p-memberForClass .p-memberList__item {
+    flex: 0 1 120px;
+    margin: 0 15px 20px; }
+    .p-memberForClass .p-memberList__item a {
+      display: block; }
+    .p-memberForClass .p-memberList__item__img {
+      width: 100%;
+      margin-bottom: .6em; }
+    .p-memberForClass .p-memberList__item__text {
+      text-align: center;
+      line-height: 1.4em; }
+
+.p-profile {
+  font-size: 1.6rem; }
+  .p-profile .p-definitionList div {
+    margin-bottom: .8em; }
+    @media screen and (min-width: 768px) {
+      .p-profile .p-definitionList div {
+        display: flex;
+        margin-bottom: 2px; } }
+  .p-profile .p-definitionList__dt {
+    padding: .5em .8em;
+    background: #444;
+    color: white; }
+    @media screen and (min-width: 768px) {
+      .p-profile .p-definitionList__dt {
+        display: flex;
+        align-items: center;
+        flex: 0 0  150px; } }
+  .p-profile .p-definitionList__dd {
+    padding: .5em;
+    line-height: 1.3em; }
+    .p-profile .p-definitionList__dd .p-forWork {
+      padding: .5em .8em; }
+      .p-profile .p-definitionList__dd .p-forWork a {
+        color: blue;
+        text-decoration: underline; }
+      .p-profile .p-definitionList__dd .p-forWork a:hover {
+        text-decoration: none; }
+
+.p-sstudy {
+  font-size: 1.6rem;
+  padding: .5em; }
+  .p-sstudy__title {
+    font-size: 1.1em;
+    padding: .2em 0;
+    border-bottom: 1px solid #444;
+    margin-bottom: .5em; }
+
+.p-activity {
+  font-size: .95em;
+  margin-bottom: 50px; }
+  .p-activity__title {
+    padding: .6em .4em;
+    margin-bottom: .7em;
+    border-left: 7px solid #444; }
+  .p-activity ul li {
+    margin-bottom: 1em;
+    line-height: 1.3em; }
+  .p-activity a {
+    color: blue;
+    text-decoration: underline; }
+  .p-activity a:hover {
+    text-decoration: none; }

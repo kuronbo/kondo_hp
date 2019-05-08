@@ -1,0 +1,33 @@
+.p-aboutLab {
+	&__title {
+		font-size: 1.8em;
+		padding: .5em;
+	}
+	&__img {
+		width: 100%;
+		margin-bottom: .8em;
+	}
+	&__description {
+		font-size: 1.6em;
+		line-height: 1.6em;
+	}
+}
+
+.p-newNews {
+	font-size: 1.6rem;
+	&__title {
+		padding: .5em .2em;
+		border-bottom: 1px solid #444;
+	}
+	&__newsList {
+		padding: 1em 0;
+	}
+	&__detailLink {
+		padding: 0 .5em;
+		text-align: right;
+		a {
+			color: blue;
+			text-decoration: underline;
+		}
+	}
+}

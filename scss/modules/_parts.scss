@@ -1,0 +1,31 @@
+.m-brandText {
+	font-size: 2.2rem;
+	padding: .5em 0;
+	text-align: center;
+
+	&__subTitle {
+		font-size: .4em;
+	}
+}
+
+.m-inlineNav {
+	@include mediaquery() {
+		font-size: 1.6rem;
+	}
+	@include mediaquery(md) {
+		font-size: 1.8rem;
+	}
+	@include mediaquery(lg) {
+		font-size: 2rem;
+	}
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.m-navLink {
+	&--block {
+		display: block;
+		padding: .5em .8em;
+	}
+}

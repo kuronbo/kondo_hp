@@ -1,0 +1,34 @@
+.p-newses {
+	font-size: 1.6rem;
+	padding: .5em 0;
+	margin-bottom: 30px;
+
+	&__title {
+		padding: .5em .2em;
+		margin-bottom: 2em;
+		border-bottom: 1px solid #444;
+	}
+
+	&__newsList {
+		.p-news {
+			border-bottom: 1px dashed #444;
+			&__meta {
+				margin-bottom: 0;
+				text-align: right;
+			}
+			&__content {
+				margin-bottom: .7em;
+				line-height: 1.2em;
+			}
+		}
+	}
+	.p-linkToOld {
+		a {
+		color: blue;
+		text-decoration: underline;
+	}
+		a:hover {
+			text-decoration: none;
+		}
+	}
+}
